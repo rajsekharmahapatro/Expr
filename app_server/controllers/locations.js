@@ -3,9 +3,9 @@ module.exports.homeList = function(req, res){
 };
 
 module.exports.addReview = function(req, res){
-  res.render('index', {title:'Add a Review'});
+  res.render('location-review-form', {title:'Add a Review'});
 };
 
 module.exports.locationInfo = function(req, res){
-  res.render('index', {title:'Location Information'});
+  res.render('location-info', {title:'Location Information'});
 };
